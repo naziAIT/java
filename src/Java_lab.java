@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Java_lab {
     public static void main(String[] args){
+        int x = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ведите число через пробел ");
         String input =scanner.nextLine();
@@ -38,5 +39,7 @@ public class Java_lab {
         } else {
             System.out.println("Это не палиндром");
         }
+
    }
 }
+
