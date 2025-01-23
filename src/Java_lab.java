@@ -13,6 +13,7 @@ public class Java_lab {
         for(int i=0; i< inputArray.length; i++){
             numbers[i]=Integer.parseInt(inputArray[i]);
         }
+        int c;
         int sum=0;
         for(int num: numbers){
             sum+=num;
